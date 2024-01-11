@@ -1,6 +1,6 @@
-# Tic Tac Toe
+# React Calculator
 
-A game created using HTML/CSS and Javascript.
+A calculator created using React.js.
 
 ## About this project
 
