@@ -1,5 +1,7 @@
-#Calculator
-A calculator created using React.js.
+# Tic Tac Toe
 
-##About this project
+A game created using HTML/CSS and Javascript.
+
+## About this project
+
 This project is a part of the Web Scripting courses in BCIT's Front-end Web Development program.
