@@ -14,6 +14,13 @@ export function memory(showNum, selectedBtnValue, memoryStore) {
   return { memoryStore: memoryStore, showNum: showNum };
 }
 
-export function bonus03(showNum, selectedBtnValue) {
-  return;
+export function doubleDecimalCheck(showNum) {
+  let str = String(showNum);
+  let alreadyHadDecimal = false;
+  for (let i = 0; i < str.length; i++) {
+    if (str[i] === ".") {
+      alreadyHadDecimal = true;
+    }
+  }
+  return alreadyHadDecimal;
 }
